@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster Two', cursive;
+}
+
+nav{
+    height: 5rem;
+    background-color: #D6FAE7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo h2{
+    color: black;
+    font-size: 4rem;
+}
+
+.content{
+    display: flex;
+    width:100vw;
+    justify-content: center;
+}
+
+.left-card{
+    width: 40vw;
+    height: 40vh;
+    border: 2px solid black;
+    align-items: center;
+    margin: 3rem;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-card{
+    width: 40vw;
+    height: 40vh;
+    border: 2px solid black;
+    align-items: center;
+    margin: 3rem;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner{
+    height:4vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D6FAE7;
+    border-radius: 25px;
+    border: 2px solid black;
+    border-top: none;
+}
+
+input{
+    border-radius: 25px;
+    border: 2px solid black;
+    width: 80%;
+    text-align: center;
+    height: 5vh;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.suggestions{
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+.suggestions h3{
+    font-size:1.5rem;
+    text-align: center;
+}
+
+button{
+    height: 4vh;
+    border:2px solid black;
+    outline: none;
+    border-radius: 25px;
+    font-size:1rem;
+    font-weight: bold;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 1.5rem;
+}
