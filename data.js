@@ -40,7 +40,7 @@ document.getElementById('form').addEventListener('submit', (e) => {
         email : getId('eemail'),
         password : getId('lpassword')
     });
-    window.location.href = "http://www.w3schools.com";
+    window.location.href = "./index.html";
     console.log("sent");
     document.getElementById('form').reset();
 });
