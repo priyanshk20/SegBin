@@ -32,7 +32,7 @@ nav{
 }
 
 .left-card{
-    width: 40vw;
+    width: 35vw;
     align-items: center;
     height: 40vh;
     border: 2px solid black;
@@ -99,12 +99,21 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -2rem;
 }
 
 .scanner button{
     height: 5vh;
-    width: 30%;
+    width: 15%;
     font-size: 2rem;
     font-weight: bold;
 }
 
+.output{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:4rem;
+    font-size:3.5rem;
+    font-weight: bold;
+}
