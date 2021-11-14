@@ -33,17 +33,7 @@ nav{
 
 .left-card{
     width: 40vw;
-    height: 40vh;
-    border: 2px solid black;
     align-items: center;
-    margin: 3rem;
-    border-radius: 25px;
-    display: flex;
-    flex-direction: column;
-}
-
-.right-card{
-    width: 40vw;
     height: 40vh;
     border: 2px solid black;
     align-items: center;
@@ -76,7 +66,7 @@ input{
 }
 
 .suggestions{
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-left: 1rem;
     margin-right: 1rem;
 
@@ -84,6 +74,13 @@ input{
 .suggestions h3{
     font-size:1.5rem;
     text-align: center;
+}
+
+.find{
+    height: 5vh;
+    width: 20%;
+    font-size:1.5rem;
+    font-weight: bold;
 }
 
 button{
@@ -95,5 +92,19 @@ button{
     font-weight: bold;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
+
+.scanner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scanner button{
+    height: 5vh;
+    width: 30%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
