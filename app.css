@@ -93,14 +93,14 @@ input{
 }
 
 button{
-    height: 4vh;
+    height: 3vh;
     border:2px solid black;
     outline: none;
     border-radius: 25px;
     font-weight: bold;
-    margin-left: 0.75rem;
-    margin-right: 0.75rem;
-    margin-top: 1.25rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.75rem;
     background-color:white;
 }
 
@@ -126,6 +126,7 @@ button:hover{
 .scanner button a{
 text-decoration: none;
 color: black;
+text-align: center;
 }
 
 .output{
