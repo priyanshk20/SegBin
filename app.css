@@ -34,9 +34,9 @@ nav{
 
 .left-card{
     background-color: black;
-    width: 35vw;
+    width: 40vw;
     align-items: center;
-    height: 45vh;
+    height: 50vh;
     border: 2px solid black;
     align-items: center;
     margin: 3rem;
@@ -81,7 +81,7 @@ input{
 }
 .suggestions h3{
     color: white;
-    font-size:1.5rem;
+    font-size:1rem;
     text-align: center;
 }
 
@@ -118,7 +118,8 @@ button:hover{
 .scanner button{
     height: 5vh;
     width: 15%;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
     font-weight: bold;
     background-color:white;
 }
@@ -126,7 +127,6 @@ button:hover{
 .scanner button a{
 text-decoration: none;
 color: black;
-text-align: center;
 }
 
 .output{
